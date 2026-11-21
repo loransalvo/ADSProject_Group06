@@ -40,7 +40,7 @@
   <h3 align="center">
   ADS I Class Project
   <br />
-  Group #XXX
+  Group #6
   <br />
   Winter Semester 2026/2027
   </h3>
