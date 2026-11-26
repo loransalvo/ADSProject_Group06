@@ -24,11 +24,19 @@ class HalfAdder extends Module{
     /* 
      * TODO: Define IO ports of a half adder as presented in the lecture
      */
+
+    /* Defining 2 inputs A and B as well as outputs Sum and Carryout*/
+    val SignalA = Input(UInt(1.W))
+    val SignalB = Input(UInt(1.W))
+    val SignalCout = Output(UInt(1.W))
+    val SignalS = Output(UInt(1.W))
     })
 
   /* 
    * TODO: Describe output behaviour based on the input values
    */
+  SignalCout := SignalA & SignalB
+  SignalS := SignalA ^ SignalB
 
 }
 
@@ -79,6 +87,9 @@ class FourBitAdder extends Module{
     /* 
      * TODO: Define IO ports of a 4-bit ripple-carry-adder as presented in the lecture
      */
+
+    
+    
     })
 
   /* 
