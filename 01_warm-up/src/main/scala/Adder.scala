@@ -35,8 +35,8 @@ class HalfAdder extends Module{
   /* 
    * TODO: Describe output behaviour based on the input values
    */
-  SignalCout := SignalA & SignalB
-  SignalS := SignalA ^ SignalB
+  io.SignalCout := io.SignalA & io.SignalB
+  io.SignalS := io.SignalA ^ io.SignalB
 
 }
 
